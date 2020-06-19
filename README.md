@@ -1,7 +1,7 @@
 # COVID-19: Risk of Geographical Areas being infected
 This experimental project was done as a use-case to predict COVID-19 infection hotspots for a probable second wave of cases in Manhattan area.
 
-![](images/sampled_1000_traj.PNG)
+![](images/grid_covering_traj_02.PNG)
 
 ## Key Points
  - We began at exploring a geographical space and looking at movement path of people i.e, trajectories.
