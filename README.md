@@ -1,5 +1,5 @@
 # COVID-19: Risk of Geographical Areas being infected
-This experimental project was done as a use-case to predict COVID-19 infection hotspots for a probable second wave of cases in Manhattan area.
+This experimental project was done as a use-case of my research paper (https://github.com/saimmehmood/semantic_relationships) to predict COVID-19 infection hotspots for a probable second wave of cases in Manhattan area.
 
 ![](images/grid_covering_traj_02.PNG)
 
