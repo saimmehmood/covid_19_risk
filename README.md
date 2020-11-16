@@ -1,7 +1,7 @@
 # COVID-19: Risk of Geographical Areas being infected
-This experimental project was done as a use-case to predict COVID-19 infection hotspots for a probable second wave of cases in Manhattan area.
+This experimental project was done as a use-case of my research paper (https://github.com/saimmehmood/semantic_relationships) to predict COVID-19 infection hotspots for a probable second wave of cases in Manhattan area.
 
-![](images/sampled_1000_traj.PNG)
+![](images/grid_covering_traj_02.PNG)
 
 ## Key Points
  - We began at exploring a geographical space and looking at movement path of people i.e, trajectories.
@@ -12,7 +12,7 @@ This experimental project was done as a use-case to predict COVID-19 infection h
  
 ## Data Preparation
 The dataset I’m using is released by NYC Taxi and Limousine Commission (TLC), which includes pickup & dropoff time, geo-coordinates, number of passengers, and several other features. 
-- The data-set file contains 1,048,576 trip records containing pickup and dropoff points as pairs of (longitude, latitude) coordinates.  - For the needs of this experiment, I rely on random sample S that includes 10,000 pairs. 
+- The data-set file contains 1,048,576 trip records containing pickup and dropoff points as pairs of (longitude, latitude) coordinates.  - For the needs of this experiment, I rely on random sample *S* that includes 10,000 pairs. 
 - For each pair of pickup and dropoff coordinates, I utilize Google Directions API (new_york_taxi.py) to create trajectories in NYC.
 
 ## Conclusion and Furture Work
