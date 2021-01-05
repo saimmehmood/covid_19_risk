@@ -15,9 +15,8 @@ The dataset I’m using is released by NYC Taxi and Limousine Commission (TLC), 
 - The data-set file contains 1,048,576 trip records containing pickup and dropoff points as pairs of (longitude, latitude) coordinates.  - For the needs of this experiment, I rely on random sample *S* that includes 10,000 pairs. 
 - For each pair of pickup and dropoff coordinates, I utilize Google Directions API (new_york_taxi.py) to create trajectories in NYC.
 
-## Conclusion and Furture Work
-In essence, this work provides a simple, easy-to-follow **proof-of-concept** in finding areas that are at a high risk of being affected by COVID-19. As future work, I’m looking forward to designing a machine learning based model.
-- That given a geographical area, given trajectories inside that area, find hotspots that are at a high risk of being affected by covid-19 or any other infectious disease.
+## Conclusion
+In essence, this work provides a simple, easy-to-follow **proof-of-concept** in finding areas that are at a high risk of being affected by COVID-19. 
 
 #### Link to medium post:
 https://towardsdatascience.com/covid-19-risk-of-geographical-areas-being-infected-a81938a5e286
